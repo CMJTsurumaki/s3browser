@@ -1,3 +1,5 @@
+// 
+
 import {
   createAmplifyAuthAdapter,
   createStorageBrowser,
@@ -20,7 +22,7 @@ function App() {
       {({ signOut, user }) => (
         <>
           <div className="header">
-            <h1>{`Hello ${user?.username}`}</h1>
+            <h1>{`BPO AI実験部 S3ストレージ`}</h1>
             <Button onClick={signOut}>Sign out</Button>
           </div>
           <StorageBrowser />
@@ -31,3 +33,4 @@ function App() {
 }
 
 export default App;
+
