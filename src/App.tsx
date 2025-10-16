@@ -22,7 +22,7 @@ function App() {
       {({ signOut, user }) => (
         <>
           <div className="header">
-            <h1>{`BPO AI実験部 S3ストレージ`}</h1>
+            <h1>{`BPO AI螳滄ｨ馴Κ S3繧ｹ繝医Ξ繝ｼ繧ｸ`}</h1>
             <Button onClick={signOut}>Sign out</Button>
           </div>
           <StorageBrowser />
